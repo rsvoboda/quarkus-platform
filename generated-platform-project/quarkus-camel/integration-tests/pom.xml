@@ -13,7 +13,6 @@
   <name>Quarkus Platform - Camel - Integration Tests - Parent</name>
   <modules>
     <module>camel-quarkus-integration-test-kafka-oauth</module>
-    <module>camel-quarkus-integration-test-json-validator</module>
     <module>camel-quarkus-integration-test-jt400-mocked</module>
     <module>camel-quarkus-integration-test-activemq</module>
     <module>camel-quarkus-integration-test-activemq6</module>
@@ -71,7 +70,6 @@
     <module>camel-quarkus-integration-test-google</module>
     <module>camel-quarkus-integration-test-graphql</module>
     <module>camel-quarkus-integration-test-grok</module>
-    <module>camel-quarkus-integration-test-groovy-xml</module>
     <module>camel-quarkus-integration-test-groovy</module>
     <module>camel-quarkus-integration-test-grpc</module>
     <module>camel-quarkus-integration-test-hashicorp-vault</module>
@@ -80,6 +78,8 @@
     <module>camel-quarkus-integration-test-hl7</module>
     <module>camel-quarkus-integration-test-http-grouped</module>
     <module>camel-quarkus-integration-test-ibm-cos</module>
+    <module>camel-quarkus-integration-test-ibm-watson-discovery</module>
+    <module>camel-quarkus-integration-test-ibm-watson-language</module>
     <module>camel-quarkus-integration-test-infinispan-common</module>
     <module>camel-quarkus-integration-test-infinispan-quarkus-client</module>
     <module>camel-quarkus-integration-test-infinispan</module>
@@ -105,6 +105,7 @@
     <module>camel-quarkus-integration-test-jq</module>
     <module>camel-quarkus-integration-test-jsch</module>
     <module>camel-quarkus-integration-test-jslt</module>
+    <module>camel-quarkus-integration-test-json-validator</module>
     <module>camel-quarkus-integration-test-jsonata</module>
     <module>camel-quarkus-integration-test-jsonpath</module>
     <module>camel-quarkus-integration-test-jt400</module>
@@ -151,7 +152,6 @@
     <module>camel-quarkus-integration-test-mybatis</module>
     <module>camel-quarkus-integration-test-nats</module>
     <module>camel-quarkus-integration-test-netty</module>
-    <module>camel-quarkus-integration-test-nitrite</module>
     <module>camel-quarkus-integration-test-oaipmh</module>
     <module>camel-quarkus-integration-test-oauth</module>
     <module>camel-quarkus-integration-test-observability-services</module>
@@ -173,6 +173,7 @@
     <module>camel-quarkus-integration-test-platform-http-proxy-ssl</module>
     <module>camel-quarkus-integration-test-platform-http-proxy</module>
     <module>camel-quarkus-integration-test-platform-http</module>
+    <module>camel-quarkus-integration-test-pqc</module>
     <module>camel-quarkus-integration-test-protobuf</module>
     <module>camel-quarkus-integration-test-pubnub</module>
     <module>camel-quarkus-integration-test-qdrant</module>
